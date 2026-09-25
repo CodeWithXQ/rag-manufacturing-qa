@@ -1,0 +1,17 @@
+# 敏感配置
+.env
+
+# 模型权重（大文件，用 download_models.py 自行下载）
+models/
+
+# 建库产物（向量/关键词索引，可重新生成）
+index_store/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 日志 / 缓存
+*.log
+.DS_Store

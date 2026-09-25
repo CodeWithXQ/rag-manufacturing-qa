@@ -1,0 +1,7 @@
+sentence-transformers>=2.6
+faiss-cpu
+rank-bm25
+gradio
+modelscope
+requests
+numpy
