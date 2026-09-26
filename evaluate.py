@@ -85,7 +85,7 @@ def main() -> None:
             retriever.search(item["question"], "hybrid", top_k=FINAL_TOP_K),
             item["gold_doc"], kw)
         print(f"{item['id']:<4}{item['question']:<36}"
-              f"{'✓' if vec_ok else '✗':<8}{'✓' if hyb_ok else '✗':<8}")
+              f"{'[OK]' if vec_ok else '[X]':<8}{'[OK]' if hyb_ok else '[X]':<8}")
 
 
 if __name__ == "__main__":
